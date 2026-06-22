@@ -50,6 +50,7 @@
   .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;color:#fff}
   .brand{display:flex;align-items:center;gap:11px;font-family:'Plus Jakarta Sans';font-weight:800;font-size:21px;letter-spacing:-.01em}
   .brand .mark{width:30px;height:30px;flex:0 0 auto}
+  .brand .logo{display:block;height:30px;width:auto;background:#fff;padding:7px 11px;border-radius:9px;box-shadow:0 4px 14px -6px rgba(0,0,0,.5)}
   .brand .be{color:#fff}.brand .wide{color:var(--blue-soft)}
   .topbar .meta{display:flex;align-items:center;gap:18px;font-size:13px;color:#c4cde6}
   .topbar .badge{display:inline-flex;align-items:center;gap:7px;background:rgba(41,98,255,.16);border:1px solid rgba(92,134,255,.4);color:#dbe4ff;padding:5px 11px;border-radius:99px;font-weight:600}
@@ -221,13 +222,8 @@
 <!-- ===================== TOPO ===================== -->
 <header class="topbar">
   <div class="wrap">
-    <a class="brand" href="#">
-      <svg class="mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
-        <path d="M14 10v28a14 14 0 1 0 14-14" stroke="#2962FF" stroke-width="6" stroke-linecap="round"/>
-        <path d="M40 40a18 18 0 0 0-18-18" stroke="#5C86FF" stroke-width="5" stroke-linecap="round"/>
-        <path d="M48 40a26 26 0 0 0-26-26" stroke="#9bb6ff" stroke-width="5" stroke-linecap="round"/>
-      </svg>
-      <span><span class="be">be</span><span class="wide">wide</span></span>
+    <a class="brand" href="https://www.be-wide.com" aria-label="Be-Wide Online Solutions">
+      <img class="logo" src="logo-bewide.png" alt="Be-Wide Online Solutions" width="145" height="50">
     </a>
     <div class="meta">
       <span class="badge"><span class="dot"></span> Fornecedor oficial acreditado</span>
@@ -487,8 +483,8 @@
 <footer>
   <div class="wrap">
     <div>
-      <div class="brand"><span class="be" style="color:#fff">be</span><span class="wide" style="color:#5C86FF">wide</span></div>
-      <div style="margin-top:6px">Be-Wide Online Solutions</div>
+      <a class="brand" href="https://www.be-wide.com" aria-label="Be-Wide Online Solutions"><img class="logo" src="logo-bewide.png" alt="Be-Wide Online Solutions" width="145" height="50"></a>
+      <div style="margin-top:12px">Be-Wide Online Solutions</div>
       <div>Fornecedor oficial acreditado | Aceleradora de Comércio Digital</div>
     </div>
     <div class="fmeta">
